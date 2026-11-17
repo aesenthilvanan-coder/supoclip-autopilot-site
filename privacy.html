@@ -6,7 +6,8 @@
 <h2>What it accesses</h2>
 <p>When the owner connects a YouTube account, the app requests these Google permissions:</p>
 <ul><li><b>youtube.upload</b>, to upload clips the owner has approved to the owner's own channel;</li>
-<li><b>youtube.readonly</b>, to read the channel's identity and the status and statistics of videos the app uploaded.</li></ul>
+<li><b>youtube.readonly</b>, to read the channel's identity and the status and statistics of videos the app uploaded.</li>
+<li><b>youtube.force-ssl</b>, to set the owner's own channel description, keywords and banner, and to post and pin a comment on the owner's own uploads that points viewers to the same brand's other account.</li></ul>
 <p>For TikTok it requests <b>user.info.basic</b>, <b>video.publish</b> and <b>video.list</b> for the same purposes.</p>
 <h2>How data is stored</h2>
 <p>OAuth tokens are stored encrypted in a database on the owner's own computer. Video files, transcripts and publishing records also stay on that computer. Nothing is sent to the developer or to any third-party server; the only network calls go to the platforms' own APIs to upload and check videos.</p>
